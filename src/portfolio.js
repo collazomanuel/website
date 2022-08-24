@@ -6,7 +6,7 @@ const header = {
 const about = {
   name: 'Manuel Collazo',
   role: 'Programmer',
-  description: 'Electronic Engineering student at the University of Buenos Aires with a focus on the area of Digital Systems and Computing.',
+  description: '',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -18,7 +18,7 @@ const projects = [
   {
     name: 'Project 1',
     description:
-      'An online multiplayer RTS game made in C++17, no engine',
+      'An online multiplayer RTS game made in C++17 with no engine',
     stack: ['C++', 'SDL2'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
@@ -35,7 +35,7 @@ const projects = [
     name: 'Project 3',
     description:
       'A system to automate the regulation of temperature and moisture of a culture chamber for mushrooms',
-    stack: ['C++', 'Arduino'],
+    stack: ['C++', 'Microcontroller'],
     sourceCode: 'https://github.com',
     livePreview: 'https://www.researchgate.net/publication/356904406_Construction_de_una_camara_de_cultivo_altamente_especializada_y_de_bajo_costo_para_uso_de_laboratorio',
   },

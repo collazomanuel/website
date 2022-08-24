@@ -1,5 +1,3 @@
-import { useContext } from 'react'
-import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
@@ -15,15 +13,13 @@ import { loadFull } from "tsparticles";
 
 const App = () => {
 
-  const [{ themeName }] = useContext(ThemeContext)
-
   const particlesInit = async (main) => {
     console.log(main);
     await loadFull(main);
   };
 
   return (
-    <div id='top' className={`${themeName} app`}>
+    <div id='top' className={`light app`}>
 
       <div id='container'>
 
@@ -154,18 +150,24 @@ const App = () => {
         />
         <Header/>
         <About />
+        <br />
+        <br />   
+      </div>
+
+      <div id='middle'>
+        <br />   
+        <Projects />
+        <Skills />
+        <br />
+        <br />
       </div>
 
 
-      <Projects />
-      <Skills />
       <Contact />
-
-
       <ScrollToTop />
       <Footer />
     </div>
   )
 }
 
-export default App
+export default App;

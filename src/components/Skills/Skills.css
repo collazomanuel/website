@@ -9,4 +9,6 @@
 
 .skills__list-item {
   margin: 0.5em;
+  background-color: var(--clr-bg);
+  color: var(--clr-fg-alt);
 }
