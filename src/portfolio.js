@@ -7,10 +7,10 @@ const about = {
   name: 'Manuel Collazo',
   role: 'Programmer',
   description: '',
-  resume: 'https://example.com',
+  resume: 'https://www.dropbox.com/s/0bizniiq1mgx0n0/CV.pdf?dl=0',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/manuelcollazof',
+    github: 'https://github.com/collazomanuel',
   },
 }
 
@@ -20,16 +20,16 @@ const projects = [
     description:
       'An online multiplayer RTS game made in C++17 with no engine',
     stack: ['C++', 'SDL2'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Lautaro-De-Lucia/TDP-Dune2022',
+    livePreview: 'https://github.com/Lautaro-De-Lucia/TDP-Dune2022',
   },
   {
     name: 'Project 2',
     description:
       'A WebGL 3D engine made in Vanilla JS',
     stack: ['JavaScript', 'WebGL'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/collazomanuel/sistemas-graficos/tree/main/tp2',
+    livePreview: 'https://collazomanuel.github.io/sistemas-graficos/tp2/index.html',
   },
   {
     name: 'Project 3',

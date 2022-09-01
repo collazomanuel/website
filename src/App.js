@@ -155,11 +155,8 @@ const App = () => {
       </div>
 
       <div id='middle'>
-        <br />   
         <Projects />
         <Skills />
-        <br />
-        <br />
       </div>
 
 
